@@ -4,17 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to Yuheng Chen's Page</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            text-align: center;
+            padding: 1em;
+            border-radius: 5px;
+        }
+        h1 {
+            margin-bottom: 0.5em;
+        }
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 0.3em;
+        }
+        .contact-info {
+            background-color: #ecf0f1;
+            padding: 1em;
+            border-radius: 5px;
+            margin-top: 1em;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .pdf-link {
+            display: inline-block;
+            margin-top: 1em;
+            padding: 0.5em 1em;
+            background-color: #3498db;
+            color: white;
+            border-radius: 3px;
+            transition: background-color 0.3s ease;
+        }
+        .pdf-link:hover {
+            background-color: #2980b9;
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to My GitHub Page!</h1>
-    <p>This is Yuheng Chen. Feel free to explore my projects and reach out to me!</p>
-
-    <h2>Contact Information</h2>
-    <p>Email: <a href="mailto:chenyuheng2022@ia.ac.cn">chenyuheng2022@ia.ac.cn</a></p>
-    <p>GitHub: <a href="https://github.com/heng840">heng840</a></p>
-    <p>Google Scholar: <a href="https://scholar.google.com/citations?user=QCCcWXcAAAAJ&hl=en">My Profile</a></p>
-
-    <p>Click the link below to view the PDF document:</p>
-    <a href="CV-Yuheng Chen.pdf">View PDF</a>
+    <header>
+        <h1>Welcome to My GitHub Page!</h1>
+        <p>This is Yuheng Chen. Feel free to explore my projects and reach out to me!</p>
+    </header>
+    
+    <main>
+        <h2>About Me</h2>
+        <p>Here you can add a brief introduction about yourself, your interests, and your expertise.</p>
+        
+        <h2>Projects</h2>
+        <p>You can list some of your notable projects here with brief descriptions and links.</p>
+        
+        <h2>Contact Information</h2>
+        <div class="contact-info">
+            <p>Email: <a href="mailto:chenyuheng2022@ia.ac.cn">chenyuheng2022@ia.ac.cn</a></p>
+            <p>GitHub: <a href="https://github.com/heng840">heng840</a></p>
+            <p>Google Scholar: <a href="https://scholar.google.com/citations?user=QCCcWXcAAAAJ&hl=en">My Profile</a></p>
+        </div>
+        
+        <a href="CV-Yuheng Chen.pdf" class="pdf-link">View My CV</a>
+    </main>
 </body>
 </html>
